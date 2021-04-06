@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Diceability</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<script src="main.js"></script>
+	<center><h1>Diceability</h1></center><br>
+	<div>
+		<center><input type="text" value="" disabled></center><br><br>
+		<center>
+			<label>1:</label><input type="text" value="" disabled>
+			<label>2:</label><input type="text" value="" disabled>
+			<label>3:</label><input type="text" value="" disabled><br><br>
+			<label>4:</label><input type="text" value="" disabled>
+			<label>5:</label><input type="text" value="" disabled>
+			<label>6:</label><input type="text" value="" disabled>
+		</center>
+	</div>
+	<br><br><br>
+	<center><button id="1" onclick="total++;ps[0]++;i[0].value=total.toString();i[1].value=Math.floor(ps[0]/total*1/6*100)+'%';">1</button></center><br><br>
+	<center><button id="2" onclick="total++;ps[1]++;i[0].value=total.toString();i[2].value=Math.floor(ps[1]/total*1/6*100)+'%';">2</button></center><br><br>
+	<center><button id="3" onclick="total++;ps[2]++;i[0].value=total.toString();i[3].value=Math.floor(ps[2]/total*1/6*100)+'%';">3</button></center><br><br>
+	<center><button id="4" onclick="total++;ps[3]++;i[0].value=total.toString();i[4].value=Math.floor(ps[3]/total*1/6*100)+'%';">4</button></center><br><br>
+	<center><button id="5" onclick="total++;ps[4]++;i[0].value=total.toString();i[5].value=Math.floor(ps[4]/total*1/6*100)+'%';">5</button></center><br><br>
+	<center><button id="6" onclick="total++;ps[5]++;i[0].value=total.toString();i[6].value=Math.floor(ps[5]/total*1/6*100)+'%';">6</button></center><br><br>
+</body>
+</html>

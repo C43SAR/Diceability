@@ -1,0 +1,27 @@
+h1 {
+	color: black;
+	font-family: consolas;
+	font-size: 750%;
+}
+
+button	{
+	width: 75%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	font-family: consolas;
+	font-size: 500%;
+}
+
+input{
+	width: 25%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	font-family: consolas;
+	font-size: 500%;
+	text-align: center;
+}
+
+label	{
+	font-size: 500%;
+	font-family: consolas;
+}
